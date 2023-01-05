@@ -17,7 +17,7 @@
         </nav>
         <section class="index">
             <div class="home-content">
-                <p id="data"></p>
+                <p id="data" class="styleIt"></p>
                 <div class="home-desc">
                     <h1>Hello World, my name is <span class="name">Tshepo Sekete</span></h1>
                     <p>I am a detailed orientated individual who is always looking for new opportunities and challenges. I am highly organized, self motivated and very good at dealing with complex situations.</p>
@@ -50,7 +50,7 @@
                     Latitude = position.coords.latitude;
                     Longitude = position.coords.longitude;
 
-                getData(Latitude, Longitude);
+                    getData(Latitude, Longitude);
                 }
 
                 function getData(Lat, Lon) {
@@ -63,6 +63,7 @@
                             fetchData(data)
                         })
                 }
+            
                 function fetchData(data) {
                     const icon = "http://openweathermap.org/img/wn/"
                         + data.weather[0].icon + "@2x.png"
@@ -92,9 +93,9 @@
                         + data.weather[0].description + "<br>"
                 }
 
-                    getLocation();
-                    showPosition();
-                    getData();
+                getLocation();
+                showPosition();
+                getData();
         </script>
        
     </body>
