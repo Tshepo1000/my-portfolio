@@ -143,3 +143,8 @@ textarea{
     padding-left: 80%;
     color: white;
 }
+
+#data{
+    border: 2px solid darkblue;
+    padding:5%;
+}
