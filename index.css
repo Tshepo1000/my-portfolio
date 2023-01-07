@@ -147,9 +147,9 @@ textarea{
 #data{
     border: 2px solid darkblue;
     padding:5%;
-    color: darkblue;
+    color: white;
 }
 
 #data:hover{
-    color: white;
+    color: powderblue;
 }
