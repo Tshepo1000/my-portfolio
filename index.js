@@ -1,8 +1,8 @@
 var data = document.getElementById("data");
                 var Latitude;
                 var Longitude;
-                var key = "60fd2e95260ceb1accea1a4dab94296f";
-                var url = "http://api.openweathermap.org/data/2.5/weather?";
+                const key = "60fd2e95260ceb1accea1a4dab94296f";
+                const url = "https://api.openweathermap.org/data/2.5/weather?";
 
                 function getLocation() {
                     if (navigator.geolocation) {
@@ -32,7 +32,7 @@ var data = document.getElementById("data");
                 }
             
                 function fetchData(data) {
-                    const icon = "http://openweathermap.org/img/wn/"
+                    const icon = "https://openweathermap.org/img/wn/"
                         + data.weather[0].icon + "@2x.png"
 
                     document.getElementById("data").innerHTML =
