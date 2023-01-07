@@ -6,9 +6,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="./index.css" rel="stylesheet">
     </head>
-    <body id = "myBody">
-        
-         <script>
+    <body id = "myBody">    
+        <nav class="nav-bar">
+            <h1>Tshepo T Sekete</h1>
+            <div class="nav-links">
+                <a href="./index.html">Home</a>
+                <a href="./resume.html">Resume</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+        </nav>
+        <section class="index">
+            <div class="home-content">              
+                <p id="data" class="styleIt"></p>
+                <div class="home-desc">
+                    <h1>Hello World, my name is <span class="name">Tshepo Sekete</span></h1>
+                    <p>I am a detailed orientated individual who is always looking for new opportunities and challenges. I am highly organized, self motivated and very good at dealing with complex situations.</p>
+                <a href="./contact.html">
+                    <button type="button">Contact Me</button>
+                </a>   
+                </div>
+            </div>
+        </section>
+            <script>
                 var data = document.getElementById("data");
                 var Latitude;
                 var Longitude;
@@ -75,32 +94,6 @@
                 showPosition();
                 getData();
             
-        </script>
-        
-        
-        <nav class="nav-bar">
-            <h1>Tshepo T Sekete</h1>
-            <div class="nav-links">
-                <a href="./index.html">Home</a>
-                <a href="./resume.html">Resume</a>
-                <a href="./contact.html">Contact</a>
-            </div>
-        </nav>
-        <section class="index">
-            <div class="home-content">              
-                <p id="data" class="styleIt"></p>
-                <div class="home-desc">
-                    <h1>Hello World, my name is <span class="name">Tshepo Sekete</span></h1>
-                    <p>I am a detailed orientated individual who is always looking for new opportunities and challenges. I am highly organized, self motivated and very good at dealing with complex situations.</p>
-                <a href="./contact.html">
-                    <button type="button">Contact Me</button>
-                </a>   
-                </div>
-            </div>
-
-        </section>
-
-       
-       
+        </script>      
     </body>
 </html>
